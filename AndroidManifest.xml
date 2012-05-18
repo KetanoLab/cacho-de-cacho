@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="viny.soltux"
+    android:versionCode="1"
+    android:versionName="1.0.0" 
+    android:installLocation="preferExternal">
+    <uses-sdk android:minSdkVersion="2" android:targetSdkVersion="7" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" /> 
+    <application
+        android:icon="@drawable/icono"
+        android:label="@string/app_name" 
+        android:name=".ReporteErrores"
+        android:debuggable="false">
+        <meta-data android:name="xperiaplayoptimized_content" android:resource="@drawable/ic_launcher" />
+        <activity
+            android:name=".Pantalla1"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CachovIndividual"
+            android:label="Dialogo"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="pantalla"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".CachoEquipos"
+            android:label="Cequipos"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".CreditosActivity"
+            android:label="creditos"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity
+            android:name=".Pantalla2"
+            android:label="pant2"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+         <activity
+            android:name=".Salida"
+            android:label="sal"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            <activity
+            android:name=".TecladoIndividual"
+            android:label="tecla"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+             <activity
+            android:name=".TecladoEquipos"
+            android:label="tecladoEq"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+              <activity
+            android:name=".Reglas"
+            android:label="ayuda"
+            android:screenOrientation="landscape"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+               <activity
+            android:name=".SubMenuComoJugar"
+            
+            android:label="submenu"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+               <activity
+            android:name=".Guia1"
+            
+            android:label="guia1"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                 <activity
+            android:name=".Guia2"
+            
+            android:label="guia2"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                   <activity
+            android:name=".Guia3"
+            
+            android:label="guia3"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                    <activity
+            android:name=".Guia4"
+            
+            android:label="guia4"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                     <activity
+            android:name=".Guia5"
+            
+            android:label="guia5"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+                     <activity android:name="org.acra.CrashReportDialog"
+        android:theme="@android:style/Theme.Dialog"
+        android:launchMode="singleInstance"
+        android:excludeFromRecents="true"
+        android:finishOnTaskLaunch="true" />
+                     
+    </application>
+
+</manifest>

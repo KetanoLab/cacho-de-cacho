@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="Un cacho de cacho"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nReglas del juego
+            \n\nBases:
+            \n\nUn cacho de cacho es un juego de cacho &apos;alalay&apos;.
+            \n\nDe 1 a 3 jugadores (jugadores individuales o pareja de 2 jugadores) lanzan los dados por turnos, para obtener combinaciones de números con los dados, que anotan en su tablero personal.
+            \n\nEn cada turno, un jugador lanza un cacho de dados, para realizar un intento. Un intento consiste en uno o dos lanzamientos de dados. El primer lanzamiento se realiza con todos los cinco dados; en caso de que se haya obtenido una jugada de &apos;mano&apos;(ver la siguiente sección), ésta se podrá anotar directamente.
+            \n\nEn caso contrario o si no se desea anotar la jugada de mano obtenida, se escoge entre 1 o 5 dados para volver a meter al cubilete y realizar un segundo lanzamiento. En caso de haberse usado el segundo lanzamiento, se debe voltear un dado, y optatívamente un segundo dado, y escoger una anotación a realizar.
+            \n\nNota: Si se optó por meter los cinco dados nuevamente para un segundo lanzamiento, el resultado de este lanzamiento igualmente podrá ser considerado de &apos;mano&apos;.
+            \n\nCada jugador puede realizar consultas con la mesa (correspondientes a las jugadas ya anotadas para tomar decisiones para sucesivos lanzamientos), apretando sobre su nombre en la parte baja de la derecha."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="Condiciones de terminación de juego"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\n1. Ningún jugador tenga qué anotar : todas las casillas de todos los tableros han sido anotadas. El ganador del juego es aquél que logre la mayor suma de puntos anotados.
+            \n\n2. Algún jugador se haya &apos;dormido&apos;: Si en algún lanzamiento de 5 dados, todos los dados mostraran el mismo valor, el jugador que haya realizado el lanzamiento es el ganador y el juego termina. Esta jugada se denomina &apos;dormida&apos;.
+            \n\n3. Si algún jugador obtiene la &apos;panza de oro&apos;: Si algún jugador anota todos los juegos de la panza (escalera, full, póker) con jugadas de &apos;mano&apos;, (situación que se denomina panza de oro) y tuviera anotada al menos una grande, el juego termina con él como ganador.
+            \n\n4. Si un jugador tiene póker (o más) en todas las casillas numéricas &apos;alalay&apos;: Si algún jugador anota en todas las casillas numéricas (balas, tontos, trenes, cuadras, quinas, senas) un póker o más y además tuviera anotada al menos una &apos;grande&apos;, el juego termina con él como ganador."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nEl tablero y los juegos"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="
+			\n\nCada jugador mantiene un tablero donde se anotarán:"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nJugadas de mano: Una jugada se considera &apos;de mano&apos; si es producto del lanzamiento de 5 dados, sin necesidad de realizar ningún vuelque. Las jugadas que pueden ser de mano son:
+            \n\n&apos;Escalera de mano&apos; , &apos;Full de mano&apos; , &apos;Póquer de mano&apos;  y, finalmente, la &apos;dormida&apos;."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dibujo" />
+
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nJugadas de huevo: Una jugada se considera &apos;de huevo&apos; si es producto del lanzamiento de 5 dados, requiere la necesidad de realizar 1 ó 2 vuelques. Las jugadas que pueden ser de huevo son:
+            \n\n&apos;Escalera de huevo&apos; , &apos;Full de huevo&apos; , &apos;Poker de huevo&apos;  y, finalmente, la &apos;grande&apos;."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dibujo2" />
+ 
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text=" \n\nLos borres: Una casilla borrada, marcada con una cruz, significa que el valor para la casilla es de 0 puntos."
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="Reglas especiales del juego por Equipos"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nPor turnos, cada pareja tiene dos intentos. Una vez culminado el primer intento, la pareja decide si anotar algún resultado posible o si, por el contrario, guarda este resultado (debe indicar cuál anotación específica) para escoger entre éste y alguno posible del segundo intento. Si se escoge esta última opción, la pareja lo indicará diciendo sobre [la jugada que desea guardar] y proseguirá con el segundo intento.
+            \n\nUna vez realizado el segundo intento, en caso de que no se haya anotado nada en el primer turno, la pareja está obligada a anotar algo entre las posibilidades del resultado del segundo turno y la jugada que se guardó del primero. En caso de que se haya anotado algo previamente en el turno, la pareja no está obligada a anotar en el segundo intento, mas podrá hacerlo si lo estima conveniente.
+           "
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#0085ff"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nAnotación de puntos"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textStyle="bold" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/txtHelp2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:capitalize="characters"
+                android:padding="10dp"
+                android:shadowColor="#000000"
+                android:shadowDx="0"
+                android:shadowDy="5"
+                android:shadowRadius="3.0"
+                android:text="\n\nEn todos los casos, cada casilla se anotará, como máximo, una única vez.. Al momento de anotar, en caso de que el jugador demuestre (mediante vuelque de los dados) que tiene una jugada en la que le es imposible anotar ningún juego en todas las casillas abiertas, éste tiene que elegir cuál casilla (de entre las libres) borrar (anotarla con un valor de 0 puntos).\n\n"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" >
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

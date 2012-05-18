@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Cachov2Activity!</string>
+    <string name="app_name">Un Cacho de Cacho</string>
+<string name="crash_toast_text">Esto es Vergonzoso, un error se presento! </string>
+<string name="crash_notif_ticker_text">error inesperado, por favor manda un reporte</string>
+<string name="crash_notif_title">Cacho de cacho dejo de funcionar</string>
+<string name="crash_notif_text">por favor haz clic aquí para ayudar a resolver el problema.</string>
+ 
+<string name="crash_dialog_title">Cacho de cacho</string>
+<string name="crash_dialog_text">Un error inesperado sucedió forzándonos a cerrar la aplicación ayudanos a resolverlo enviando informacion sobre su problema.</string>
+<string name="crash_dialog_comment_prompt">Por favor añada sus comentarios acerca del problema abajo:</string>
+<string name="crash_dialog_ok_toast">Gracias!</string>
+</resources>
